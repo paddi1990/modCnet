@@ -1,9 +1,9 @@
-## modCnet: Detection of ac4C from nanopore direct RNA sequencing using deep learning
+## modCnet: Detection of ac4C and m5C from nanopore direct RNA sequencing using deep learning
 ---
 ![GitHub release (latest SemVer)](https://img.shields.io/badge/Version-v1.0-yellowgreen) ![GitHub release (latest SemVer)](https://img.shields.io/badge/Language-python-yellowgreen)
 
 
-modCnet is a deep learning framework designed to harness the power of Oxford Nanopore direct RNA sequencing for precise identification of N4-acetylcytidine (ac4C) sites, a crucial aspect in RNA modification studies. By effectively distinguishing ac4C from unmodified cytidine and 5-methylcytosine (m5C), modCnet enables accurate estimation of modification rates at each ac4C site. Through rigorous validation on independent in vitro datasets and a human cell line, modCnet showcases its robustness, versatility, and immense potential in advancing the understanding and exploration of ac4C modifications in mRNA.
+modCnet is a deep learning framework designed to harness the power of Oxford Nanopore direct RNA sequencing for precise identification of N4-acetylcytidine (ac4C) and 5-methylcytosine (m5C) sites, a crucial aspect in RNA modification studies. By effectively distinguishing ac4C and m5C from unmodified cytidine, modCnet enables accurate estimation of modification rates at each ac4C site. Through rigorous validation on independent in vitro datasets and a human cell line, modCnet showcases its robustness, versatility, and immense potential in advancing the understanding and exploration of ac4C modifications in mRNA.
 
 ## 1. Installation
 
@@ -28,8 +28,8 @@ scipy                     |1.7.0
 You can install dependent modules manually. Conda is recommended run modCnet. Create a new conda environment and activate it:
 
 ```
-conda create -n TandemMod python=3.7.12
-conda activate TandemMod
+conda create -n modCnet python=3.7.12
+conda activate modCnet
 
 ```
 Install the required modules:

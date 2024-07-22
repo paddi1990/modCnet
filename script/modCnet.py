@@ -38,6 +38,16 @@ class NN(modCnet):
         """
         super(NN, self).__init__()
 
+class ac4Cnet(modCnet):
+    def __init__(self):
+        """
+        Initialize the NN class.
+        Inherits from the TandemMod class.
+        """
+        super(ac4Cnet, self).__init__()
+
+
+
 def test(model):
     test_acc = 0.
     y_test = []
